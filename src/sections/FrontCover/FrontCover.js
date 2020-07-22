@@ -20,12 +20,6 @@ export default function FrontCover({ theme, title, imgObj }) {
                 }}>
 
                 </div>
-                {imgObj.headline && <div className="headline">
-                    {imgObj.headline}
-                    {imgObj.description && <div className="description">
-                        {imgObj.description}
-                    </div>}
-                </div>}
             </div>
         </Page>
     );
